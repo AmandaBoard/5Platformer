@@ -36,9 +36,9 @@ public class GameManager : MonoBehaviour
 
     // Add coin value to score
     public void AddScore(int value) {
-        score += value;
+        score++;
         numCoinsCollected += 1;
-        scoreBar.UpdateScoreBar(numCoinsCollected);
+        //scoreBar.UpdateScoreBar(numCoinsCollected);
         CheckEndGame();
     }
 
