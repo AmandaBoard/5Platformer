@@ -226,7 +226,7 @@ namespace Pathfinding {
 			//updateCheckDownload = new WWW(query);
 #endif
 			//lastUpdateCheck = System.DateTime.UtcNow;
-		//}
+		}
 
 		/// <summary>Handles the data from the update page</summary>
 		static void UpdateCheckCompleted (string result) {
