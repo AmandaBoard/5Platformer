@@ -19,6 +19,12 @@ public class PlayerMovements : MonoBehaviour
     private float animationTimer = 0f;
     private float animationInterval = 0.1f;
     private bool isRunningSprite1 = true;
+    public bool isAlive = true;
+    public AudioManager audioManager;
+
+    private void Awake(){
+        audioManager = GameObject.FindGameObjectWithTag("Audiotag").GetComponent<audioManager>();
+    }
     
     void Start()
     {
